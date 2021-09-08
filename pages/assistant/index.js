@@ -135,9 +135,9 @@ class Assistant extends Component {
           'Ghost Orbs',
           'Freezing Temperatures'
         ],
-        weakness: 'Hiding from the Revenant will cause it to move very slowly',
-        strength: 'A Revenant will travel at a significantly faster speed when hunting a victim. Additionally, the Revenant can freely switch whoever it is targeting during a Hunt',
-        tips: '',
+        strength: 'A Revenant will travel at a significantly faster (2x) speed when hunting a victim. Additionally, the Revenant can freely switch whoever it is targeting during a Hunt',
+        weakness: 'Hiding from the Revenant will cause it to move at a significantly reduced (0.5x) speed',
+        tips: ''
       },
       {
         type: 'Shade',
@@ -146,9 +146,9 @@ class Assistant extends Component {
           'Ghost Writing',
           'Freezing Temperatures'
         ],
-        weakness: 'Conversely, a Shade will rarely start a Hunt when players are grouped together',
         strength: 'As a shy ghost, a Shade will rarely perform actions in the presence of two or more people, making it harder to detect',
-        tips: '',
+        weakness: 'Conversely, a Shade will rarely start a Hunt when players are grouped together',
+        tips: ''
       },
       {
         type: 'Spirit',
@@ -184,15 +184,15 @@ class Assistant extends Component {
         tips: '',
       },
       {
-        type: 'Yurei',
+        type: 'Yokai',
         evidence: [
           'D.O.T.S Projector',
           'Ghost Orbs',
           'Freezing Temperatures'
         ],
-        weakness: 'Using Smudge Sticks on the Yurei`s Ghost Room will cause it to not wander around the location for ~90 seconds',
-        strength: 'Yurei have been known to have a stronger effect on people`s Sanity',
-        tips: '',
+        strength: 'Talking near a Yokai will anger it and cause it to attack more often',
+        weakness: 'While hunting, it can only hear voices close to it',
+        tips: ''
       },
       {
         type: 'Goryo',
